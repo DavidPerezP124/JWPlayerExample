@@ -8,6 +8,8 @@
 import UIKit
 
 class VideoCollectionViewController: UICollectionViewController {
+
+    let vastTagURL = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpreonly&cmsid=496&vid=short_onecue&correlator="
     
     var feed = [JWPlayerController]()
     
@@ -27,37 +29,37 @@ class VideoCollectionViewController: UICollectionViewController {
     
     
     func populateFeed(){
+        
         guard let feedFilePath = Bundle.main.path(forResource: "Items", ofType: "plist"),
               let feedInfo = NSArray(contentsOfFile: feedFilePath) as? [Dictionary<String, String>] else {
             return
         }
-
-        // Populate the feed array with video players
         
-        
-        for itemInfo in feedInfo {
-           
+        feedInfo.forEach{ itemInfo in
             
             guard let config = createConfig(info:itemInfo) else {
                 continue
             }
-            // Create the DAI Config
             
             if let player = JWPlayerController(config: config) {
                 feed.append(player)
             }
+            
         }
+       
     }
 
     func createConfig(info: Dictionary<String,String>) -> JWConfig? {
-        guard let url = info["url"] else {return nil}
+        guard let url = info["url"] else {
+            fatalError()
+        }
         let config = JWConfig.init(contentUrl:url)
         config.title = info["title"] ?? "No Title"
         config.autostart = false
         config.repeat = false
         
         //VOD test tag
-        let adBreak = JWAdBreak(tag: "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpreonly&cmsid=496&vid=short_onecue&correlator=", offset: "pre")
+        let adBreak = JWAdBreak(tag: vastTagURL, offset: "pre")
         
         let adConfig = JWAdConfig()
         adConfig.client = .googima
@@ -101,14 +103,13 @@ class VideoCollectionViewController: UICollectionViewController {
       let itemSize = NSCollectionLayoutSize(
         widthDimension: .fractionalWidth(1.0),
         heightDimension: .fractionalHeight(1.0))
-      let fullPhotoItem = NSCollectionLayoutItem(layoutSize: itemSize)
+      let fullVideoItem = NSCollectionLayoutItem(layoutSize: itemSize)
       //2
       let groupSize = NSCollectionLayoutSize(
-        widthDimension: .fractionalWidth(1.0),
-        heightDimension: .fractionalWidth(2/3))
+        widthDimension: .fractionalWidth(1.0),heightDimension: .fractionalWidth(2/3))
       let group = NSCollectionLayoutGroup.horizontal(
         layoutSize: groupSize,
-        subitem: fullPhotoItem,
+        subitem: fullVideoItem,
         count: 1)
       //3
       let section = NSCollectionLayoutSection(group: group)
