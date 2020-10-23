@@ -3,18 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C836144208F846F405B7D54 /* Pods_JWPlayerDAIAds_JWPlayerDAIAdsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0792CF07220625A7CDCAAF8A /* Pods_JWPlayerDAIAds_JWPlayerDAIAdsUITests.framework */; };
+		3275AC19425EEEBA7CDEF6CB /* Pods_JWPlayerDAIAdsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D4E021464F4654A3576C2E /* Pods_JWPlayerDAIAdsTests.framework */; };
+		81033E0C25426F1000726D32 /* AdProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81033E0B25426F1000726D32 /* AdProtocol.swift */; };
+		81033E1425426F1E00726D32 /* AdDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81033E1325426F1E00726D32 /* AdDelegate.swift */; };
 		81E3698D254233F2004FD52F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E3698C254233F2004FD52F /* AppDelegate.swift */; };
 		81E3698F254233F2004FD52F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E3698E254233F2004FD52F /* SceneDelegate.swift */; };
 		81E36991254233F2004FD52F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E36990254233F2004FD52F /* ViewController.swift */; };
-		81E36994254233F2004FD52F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E36992254233F2004FD52F /* Main.storyboard */; };
 		81E36996254233F7004FD52F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81E36995254233F7004FD52F /* Assets.xcassets */; };
 		81E36999254233F7004FD52F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E36997254233F7004FD52F /* LaunchScreen.storyboard */; };
 		81E369A4254233F7004FD52F /* JWPlayerDAIAdsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E369A3254233F7004FD52F /* JWPlayerDAIAdsTests.swift */; };
 		81E369AF254233F7004FD52F /* JWPlayerDAIAdsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E369AE254233F7004FD52F /* JWPlayerDAIAdsUITests.swift */; };
+		81E369F625423BF1004FD52F /* Items.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81E369F525423BF1004FD52F /* Items.plist */; };
+		81E369FD25423E2B004FD52F /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E369FC25423E2B004FD52F /* UIView+Extensions.swift */; };
+		81E36A0425424055004FD52F /* VideoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E36A0225424055004FD52F /* VideoCollectionViewController.swift */; };
+		81E36A102542409F004FD52F /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E36A0E2542409F004FD52F /* VideoCell.swift */; };
+		81E36A112542409F004FD52F /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81E36A0F2542409F004FD52F /* VideoCell.xib */; };
+		81E36A19254241AE004FD52F /* VideoCell+JWPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E36A18254241AE004FD52F /* VideoCell+JWPlayer.swift */; };
+		81E36A2725424F53004FD52F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E36A2625424F53004FD52F /* Main.storyboard */; };
+		B11E184A1E1D89840A20AE91 /* Pods_JWPlayerDAIAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6698EDBA2DAFF831FD23C297 /* Pods_JWPlayerDAIAds.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +46,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0792CF07220625A7CDCAAF8A /* Pods_JWPlayerDAIAds_JWPlayerDAIAdsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWPlayerDAIAds_JWPlayerDAIAdsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37BA9DF87B7EF9D839F6309A /* Pods-JWPlayerDAIAds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWPlayerDAIAds.release.xcconfig"; path = "Target Support Files/Pods-JWPlayerDAIAds/Pods-JWPlayerDAIAds.release.xcconfig"; sourceTree = "<group>"; };
+		43673DD2D45C52031DFAF24F /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests.release.xcconfig"; path = "Target Support Files/Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests/Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		58C8D8A8D18DD94F74A1DB39 /* Pods-JWPlayerDAIAds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWPlayerDAIAds.debug.xcconfig"; path = "Target Support Files/Pods-JWPlayerDAIAds/Pods-JWPlayerDAIAds.debug.xcconfig"; sourceTree = "<group>"; };
+		6698EDBA2DAFF831FD23C297 /* Pods_JWPlayerDAIAds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWPlayerDAIAds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81033E0B25426F1000726D32 /* AdProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdProtocol.swift; sourceTree = "<group>"; };
+		81033E1325426F1E00726D32 /* AdDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdDelegate.swift; sourceTree = "<group>"; };
 		81E36989254233F2004FD52F /* JWPlayerDAIAds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWPlayerDAIAds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81E3698C254233F2004FD52F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81E3698E254233F2004FD52F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		81E36990254233F2004FD52F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		81E36993254233F2004FD52F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81E36995254233F7004FD52F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81E36998254233F7004FD52F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81E3699A254233F7004FD52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +66,18 @@
 		81E369AA254233F7004FD52F /* JWPlayerDAIAdsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWPlayerDAIAdsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81E369AE254233F7004FD52F /* JWPlayerDAIAdsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWPlayerDAIAdsUITests.swift; sourceTree = "<group>"; };
 		81E369B0254233F7004FD52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81E369D22542397B004FD52F /* JWPlayerDAIAds-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JWPlayerDAIAds-Bridging-Header.h"; sourceTree = "<group>"; };
+		81E369F525423BF1004FD52F /* Items.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Items.plist; sourceTree = "<group>"; };
+		81E369FC25423E2B004FD52F /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		81E36A0225424055004FD52F /* VideoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewController.swift; sourceTree = "<group>"; };
+		81E36A0E2542409F004FD52F /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		81E36A0F2542409F004FD52F /* VideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCell.xib; sourceTree = "<group>"; };
+		81E36A18254241AE004FD52F /* VideoCell+JWPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VideoCell+JWPlayer.swift"; sourceTree = "<group>"; };
+		81E36A2625424F53004FD52F /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		967CBCB756A31F41F575D92B /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests.debug.xcconfig"; path = "Target Support Files/Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests/Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		99D4E021464F4654A3576C2E /* Pods_JWPlayerDAIAdsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWPlayerDAIAdsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF0873DDC100B7AC8BF66DB /* Pods-JWPlayerDAIAdsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWPlayerDAIAdsTests.release.xcconfig"; path = "Target Support Files/Pods-JWPlayerDAIAdsTests/Pods-JWPlayerDAIAdsTests.release.xcconfig"; sourceTree = "<group>"; };
+		E9F8C78547BE6937444B66A2 /* Pods-JWPlayerDAIAdsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWPlayerDAIAdsTests.debug.xcconfig"; path = "Target Support Files/Pods-JWPlayerDAIAdsTests/Pods-JWPlayerDAIAdsTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B11E184A1E1D89840A20AE91 /* Pods_JWPlayerDAIAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3275AC19425EEEBA7CDEF6CB /* Pods_JWPlayerDAIAdsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +101,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C836144208F846F405B7D54 /* Pods_JWPlayerDAIAds_JWPlayerDAIAdsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FDC123D30A6F63111573244 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6698EDBA2DAFF831FD23C297 /* Pods_JWPlayerDAIAds.framework */,
+				0792CF07220625A7CDCAAF8A /* Pods_JWPlayerDAIAds_JWPlayerDAIAdsUITests.framework */,
+				99D4E021464F4654A3576C2E /* Pods_JWPlayerDAIAdsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81033E0A25426EFA00726D32 /* AdDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				81033E0B25426F1000726D32 /* AdProtocol.swift */,
+				81033E1325426F1E00726D32 /* AdDelegate.swift */,
+			);
+			path = AdDelegate;
+			sourceTree = "<group>";
+		};
 		81E36980254233F2004FD52F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +134,8 @@
 				81E369A2254233F7004FD52F /* JWPlayerDAIAdsTests */,
 				81E369AD254233F7004FD52F /* JWPlayerDAIAdsUITests */,
 				81E3698A254233F2004FD52F /* Products */,
+				F8C42AE7802285ECA0EB431A /* Pods */,
+				6FDC123D30A6F63111573244 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +152,13 @@
 		81E3698B254233F2004FD52F /* JWPlayerDAIAds */ = {
 			isa = PBXGroup;
 			children = (
-				81E3698C254233F2004FD52F /* AppDelegate.swift */,
-				81E3698E254233F2004FD52F /* SceneDelegate.swift */,
-				81E36990254233F2004FD52F /* ViewController.swift */,
-				81E36992254233F2004FD52F /* Main.storyboard */,
+				81E369FA25423E13004FD52F /* Utils */,
+				81E369F425423BD8004FD52F /* Sources */,
+				81E369C0254236C8004FD52F /* Views */,
+				81E369BF254236B5004FD52F /* Controllers */,
 				81E36995254233F7004FD52F /* Assets.xcassets */,
-				81E36997254233F7004FD52F /* LaunchScreen.storyboard */,
 				81E3699A254233F7004FD52F /* Info.plist */,
+				81E369D22542397B004FD52F /* JWPlayerDAIAds-Bridging-Header.h */,
 			);
 			path = JWPlayerDAIAds;
 			sourceTree = "<group>";
@@ -128,6 +181,91 @@
 			path = JWPlayerDAIAdsUITests;
 			sourceTree = "<group>";
 		};
+		81E369BF254236B5004FD52F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				81E3698C254233F2004FD52F /* AppDelegate.swift */,
+				81E3698E254233F2004FD52F /* SceneDelegate.swift */,
+				81E36990254233F2004FD52F /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		81E369C0254236C8004FD52F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				81E36A0125424027004FD52F /* CollectionViews */,
+				81E36997254233F7004FD52F /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		81E369F425423BD8004FD52F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				81E369F525423BF1004FD52F /* Items.plist */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		81E369FA25423E13004FD52F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				81E369FB25423E1A004FD52F /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		81E369FB25423E1A004FD52F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				81E369FC25423E2B004FD52F /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		81E36A0125424027004FD52F /* CollectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				81033E0A25426EFA00726D32 /* AdDelegate */,
+				81E36A0D2542407F004FD52F /* Cell */,
+				81E36A0C25424073004FD52F /* Collection */,
+				81E36A2625424F53004FD52F /* Main.storyboard */,
+			);
+			path = CollectionViews;
+			sourceTree = "<group>";
+		};
+		81E36A0C25424073004FD52F /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				81E36A0225424055004FD52F /* VideoCollectionViewController.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		81E36A0D2542407F004FD52F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				81E36A0E2542409F004FD52F /* VideoCell.swift */,
+				81E36A0F2542409F004FD52F /* VideoCell.xib */,
+				81E36A18254241AE004FD52F /* VideoCell+JWPlayer.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F8C42AE7802285ECA0EB431A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58C8D8A8D18DD94F74A1DB39 /* Pods-JWPlayerDAIAds.debug.xcconfig */,
+				37BA9DF87B7EF9D839F6309A /* Pods-JWPlayerDAIAds.release.xcconfig */,
+				967CBCB756A31F41F575D92B /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests.debug.xcconfig */,
+				43673DD2D45C52031DFAF24F /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests.release.xcconfig */,
+				E9F8C78547BE6937444B66A2 /* Pods-JWPlayerDAIAdsTests.debug.xcconfig */,
+				BEF0873DDC100B7AC8BF66DB /* Pods-JWPlayerDAIAdsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +273,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81E369B3254233F7004FD52F /* Build configuration list for PBXNativeTarget "JWPlayerDAIAds" */;
 			buildPhases = (
+				01E72DBA4870EA39D7DEDF6A /* [CP] Check Pods Manifest.lock */,
 				81E36985254233F2004FD52F /* Sources */,
 				81E36986254233F2004FD52F /* Frameworks */,
 				81E36987254233F2004FD52F /* Resources */,
+				BA41F6EEEF5CC5ABA9B91BBD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +292,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81E369B6254233F7004FD52F /* Build configuration list for PBXNativeTarget "JWPlayerDAIAdsTests" */;
 			buildPhases = (
+				107A22D3139B3E12E849257E /* [CP] Check Pods Manifest.lock */,
 				81E3699B254233F7004FD52F /* Sources */,
 				81E3699C254233F7004FD52F /* Frameworks */,
 				81E3699D254233F7004FD52F /* Resources */,
@@ -170,9 +311,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81E369B9254233F7004FD52F /* Build configuration list for PBXNativeTarget "JWPlayerDAIAdsUITests" */;
 			buildPhases = (
+				0AE6324E02BEC2B075B7CA68 /* [CP] Check Pods Manifest.lock */,
 				81E369A6254233F7004FD52F /* Sources */,
 				81E369A7254233F7004FD52F /* Frameworks */,
 				81E369A8254233F7004FD52F /* Resources */,
+				18D783A8FBE5C4BC0A1F3A3F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +338,7 @@
 				TargetAttributes = {
 					81E36988254233F2004FD52F = {
 						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
 					};
 					81E3699E254233F7004FD52F = {
 						CreatedOnToolsVersion = 12.0.1;
@@ -231,9 +375,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81E36A2725424F53004FD52F /* Main.storyboard in Resources */,
 				81E36999254233F7004FD52F /* LaunchScreen.storyboard in Resources */,
 				81E36996254233F7004FD52F /* Assets.xcassets in Resources */,
-				81E36994254233F2004FD52F /* Main.storyboard in Resources */,
+				81E36A112542409F004FD52F /* VideoCell.xib in Resources */,
+				81E369F625423BF1004FD52F /* Items.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +399,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01E72DBA4870EA39D7DEDF6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JWPlayerDAIAds-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0AE6324E02BEC2B075B7CA68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		107A22D3139B3E12E849257E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JWPlayerDAIAdsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18D783A8FBE5C4BC0A1F3A3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests/Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests/Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests/Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA41F6EEEF5CC5ABA9B91BBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JWPlayerDAIAds/Pods-JWPlayerDAIAds-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JWPlayerDAIAds/Pods-JWPlayerDAIAds-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JWPlayerDAIAds/Pods-JWPlayerDAIAds-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		81E36985254233F2004FD52F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81E36A0425424055004FD52F /* VideoCollectionViewController.swift in Sources */,
+				81E36A102542409F004FD52F /* VideoCell.swift in Sources */,
+				81033E0C25426F1000726D32 /* AdProtocol.swift in Sources */,
 				81E36991254233F2004FD52F /* ViewController.swift in Sources */,
+				81E36A19254241AE004FD52F /* VideoCell+JWPlayer.swift in Sources */,
 				81E3698D254233F2004FD52F /* AppDelegate.swift in Sources */,
+				81E369FD25423E2B004FD52F /* UIView+Extensions.swift in Sources */,
 				81E3698F254233F2004FD52F /* SceneDelegate.swift in Sources */,
+				81033E1425426F1E00726D32 /* AdDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +551,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		81E36992254233F2004FD52F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				81E36993254233F2004FD52F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		81E36997254233F7004FD52F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,9 +680,11 @@
 		};
 		81E369B4254233F7004FD52F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58C8D8A8D18DD94F74A1DB39 /* Pods-JWPlayerDAIAds.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73D7P6XKX3;
 				INFOPLIST_FILE = JWPlayerDAIAds/Info.plist;
@@ -445,6 +694,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = PerezP.JWPlayerDAIAds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JWPlayerDAIAds/JWPlayerDAIAds-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,9 +703,11 @@
 		};
 		81E369B5254233F7004FD52F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37BA9DF87B7EF9D839F6309A /* Pods-JWPlayerDAIAds.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73D7P6XKX3;
 				INFOPLIST_FILE = JWPlayerDAIAds/Info.plist;
@@ -464,6 +717,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = PerezP.JWPlayerDAIAds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JWPlayerDAIAds/JWPlayerDAIAds-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -471,6 +725,7 @@
 		};
 		81E369B7254233F7004FD52F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9F8C78547BE6937444B66A2 /* Pods-JWPlayerDAIAdsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +748,7 @@
 		};
 		81E369B8254233F7004FD52F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEF0873DDC100B7AC8BF66DB /* Pods-JWPlayerDAIAdsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +771,7 @@
 		};
 		81E369BA254233F7004FD52F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 967CBCB756A31F41F575D92B /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +792,7 @@
 		};
 		81E369BB254233F7004FD52F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43673DD2D45C52031DFAF24F /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
