@@ -9,25 +9,6 @@ import Foundation
 
 extension VideoCell: JWPlayerDelegate {
     
-    func requestAds() {
-        
-    }
-    
-   
-    func setupAds(config: JWConfig) {
-       
-        let daiConfig = JWGoogimaDaiConfig(assetKey: "sN_IYUG8STe1ZzhIIE_ksA")
-
-        // Create the Ad Config
-        let adConfig = JWAdConfig()
-        adConfig.client = .googimaDAI
-        adConfig.googimaDaiSettings = daiConfig
-
-        config.advertising = adConfig
-        player = JWPlayerController(config: config)
-    }
-    
-    
     
     
     func onReady(_ event: JWEvent & JWReadyEvent) {
@@ -41,10 +22,6 @@ extension VideoCell: JWPlayerDelegate {
 
     func onPlay(_ event: JWEvent & JWStateChangeEvent) {
         print("On play")
-        if let config = player?.config {
-          //  setupAds(config: config)
-
-        }
         if let videoTitle = player?.config.title {
             print("Video title: \(videoTitle)")
         }

@@ -7,9 +7,7 @@
 
 import UIKit
 
-let videoUrl = "http://playertest.longtailvideo.com/adaptive/oceans/oceans.m3u8"
 class VideoCollectionViewController: UICollectionViewController {
-    
     
     var feed = [JWPlayerController]()
     
@@ -57,6 +55,14 @@ class VideoCollectionViewController: UICollectionViewController {
         config.title = info["title"] ?? "No Title"
         config.autostart = false
         config.repeat = false
+        
+        //VOD test tag
+        let adBreak = JWAdBreak(tag: "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpreonly&cmsid=496&vid=short_onecue&correlator=", offset: "pre")
+        
+        let adConfig = JWAdConfig()
+        adConfig.client = .googima
+        adConfig.schedule = [adBreak]
+        config.advertising = adConfig
         return config;
     }
     
@@ -106,38 +112,9 @@ class VideoCollectionViewController: UICollectionViewController {
         count: 1)
       //3
       let section = NSCollectionLayoutSection(group: group)
+        section.orthogonalScrollingBehavior = .groupPagingCentered
       let layout = UICollectionViewCompositionalLayout(section: section)
+        layout.configuration.scrollDirection = .horizontal
       return layout
     }
-    // MARK: UICollectionViewDelegate
-
-    /*
-    // Uncomment this method to specify if the specified item should be highlighted during tracking
-    override func collectionView(_ collectionView: UICollectionView, shouldHighlightItemAt indexPath: IndexPath) -> Bool {
-        return true
-    }
-    */
-
-    /*
-    // Uncomment this method to specify if the specified item should be selected
-    override func collectionView(_ collectionView: UICollectionView, shouldSelectItemAt indexPath: IndexPath) -> Bool {
-        return true
-    }
-    */
-
-    /*
-    // Uncomment these methods to specify if an action menu should be displayed for the specified item, and react to actions performed on the item
-    override func collectionView(_ collectionView: UICollectionView, shouldShowMenuForItemAt indexPath: IndexPath) -> Bool {
-        return false
-    }
-
-    override func collectionView(_ collectionView: UICollectionView, canPerformAction action: Selector, forItemAt indexPath: IndexPath, withSender sender: Any?) -> Bool {
-        return false
-    }
-
-    override func collectionView(_ collectionView: UICollectionView, performAction action: Selector, forItemAt indexPath: IndexPath, withSender sender: Any?) {
-    
-    }
-    */
-    
 }
