@@ -1,0 +1,996 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24A80F80D862D66FDB7A271BB46C6FB5 /* JWPlayer-SDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 037331DAE1EDE0E984EAAC1382F2056D /* Build configuration list for PBXAggregateTarget "JWPlayer-SDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "JWPlayer-SDK";
+		};
+		7362DAB47E2EFA5452F30DD7E9830B56 /* GoogleAds-IMA-iOS-SDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E0947F7804C6387890E85B00E14F35E6 /* Build configuration list for PBXAggregateTarget "GoogleAds-IMA-iOS-SDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "GoogleAds-IMA-iOS-SDK";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1D088D14F954F42CB2AFC460A50B1223 /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC7781918B063998F4B1D3A3F6E1AFDE /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2475283B7C21143648DFCCFCB3FF6998 /* Pods-JWPlayerDAIAds-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D07D376ADA390A1BDCACBDD7088F81C /* Pods-JWPlayerDAIAds-dummy.m */; };
+		34673ABE649DBEAA57E47EC08FD251DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		37B497B1ED0349FB6A77F3FBDA8F0FDF /* Pods-JWPlayerDAIAdsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48A0CAC8E15726AF2F35914460C4422B /* Pods-JWPlayerDAIAdsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72C794C25CACF4EF5BF7D00BAD2CC722 /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C63E778D4E01ED3CEFC6B1D0A8C60A39 /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-dummy.m */; };
+		75FE1017428D1567886A6A7D16ABAFCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8A1F547130BF5D2F92AD48B9BC6A5139 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A95DAF8EF535F8F08244C45269692D23 /* Pods-JWPlayerDAIAdsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1529D1FE30FE74D41D707FCC558E46FE /* Pods-JWPlayerDAIAdsTests-dummy.m */; };
+		CA966D13B842A2EDF82B40B232D5B934 /* Pods-JWPlayerDAIAds-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E1F46D7AB8E7134542CD28BD54C299B /* Pods-JWPlayerDAIAds-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CB2446A88FE6027441AEDE5859DFCDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7362DAB47E2EFA5452F30DD7E9830B56;
+			remoteInfo = "GoogleAds-IMA-iOS-SDK";
+		};
+		76407074AA676B11FA6D805523D96BAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24A80F80D862D66FDB7A271BB46C6FB5;
+			remoteInfo = "JWPlayer-SDK";
+		};
+		7F56E2AE7E850BA004661F4143560EA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24A80F80D862D66FDB7A271BB46C6FB5;
+			remoteInfo = "JWPlayer-SDK";
+		};
+		ABA38FCDAD2FFE7EB39C78D3B2203BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF99FB82C6C0A018839C15E759FCD6AA;
+			remoteInfo = "Pods-JWPlayerDAIAds";
+		};
+		C7CBAAE493171A2EC8674A0E63F48341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7362DAB47E2EFA5452F30DD7E9830B56;
+			remoteInfo = "GoogleAds-IMA-iOS-SDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0634C94F7AE70F0E83C7966E1370647D /* Pods-JWPlayerDAIAdsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JWPlayerDAIAdsTests.modulemap"; sourceTree = "<group>"; };
+		07F4D6ABD7D7122BCCF57AC97FFE2617 /* Pods-JWPlayerDAIAds-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWPlayerDAIAds-acknowledgements.plist"; sourceTree = "<group>"; };
+		08C2418723269803CAB13EA47F41AA7D /* JWPlayer-SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "JWPlayer-SDK.release.xcconfig"; sourceTree = "<group>"; };
+		0C425733D929BD8436D52079BF920A28 /* Pods-JWPlayerDAIAds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWPlayerDAIAds.debug.xcconfig"; sourceTree = "<group>"; };
+		0D5AC33E3C7E50F9E614987155DF93E4 /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1529D1FE30FE74D41D707FCC558E46FE /* Pods-JWPlayerDAIAdsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JWPlayerDAIAdsTests-dummy.m"; sourceTree = "<group>"; };
+		2498D6301EDBD7D69064A3EDD8AB8A9F /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3D07D376ADA390A1BDCACBDD7088F81C /* Pods-JWPlayerDAIAds-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JWPlayerDAIAds-dummy.m"; sourceTree = "<group>"; };
+		4205F1AB8358E293BA22C99E90778CB3 /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests.modulemap"; sourceTree = "<group>"; };
+		484704E674DAAAF58248741C4B52746B /* Pods-JWPlayerDAIAdsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JWPlayerDAIAdsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		48A0CAC8E15726AF2F35914460C4422B /* Pods-JWPlayerDAIAdsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JWPlayerDAIAdsTests-umbrella.h"; sourceTree = "<group>"; };
+		5325F97234861CF1D088085C19A4D38E /* Pods-JWPlayerDAIAdsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWPlayerDAIAdsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6137FDB88E164F560F6CA4817F2781E8 /* Pods_JWPlayerDAIAds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JWPlayerDAIAds.framework; path = "Pods-JWPlayerDAIAds.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1F46D7AB8E7134542CD28BD54C299B /* Pods-JWPlayerDAIAds-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JWPlayerDAIAds-umbrella.h"; sourceTree = "<group>"; };
+		71E28BDBA3398AA459E47DA8B7D46781 /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-Info.plist"; sourceTree = "<group>"; };
+		77738C2C94D297C7E801A70F6491DBEC /* Pods-JWPlayerDAIAdsTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWPlayerDAIAdsTests-Info.plist"; sourceTree = "<group>"; };
+		81B741D182D2047DCB0221F890F8D74F /* JWPlayer_iOS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JWPlayer_iOS_SDK.framework; sourceTree = "<group>"; };
+		8BC9E219F6BF2B0F9B073F4D75E8E4C1 /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8DC9B9F044C1AF13A53FB74748ED9ED3 /* Pods_JWPlayerDAIAdsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JWPlayerDAIAdsTests.framework; path = "Pods-JWPlayerDAIAdsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF83BFA09FFE3ABF1C65BB29407A4B6 /* JWPlayer-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "JWPlayer-SDK.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C3025909B773D1FC58F2DE17B53EC1CC /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C63E778D4E01ED3CEFC6B1D0A8C60A39 /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-dummy.m"; sourceTree = "<group>"; };
+		C9803D53E7B3DF4BE50D19230F493531 /* Pods-JWPlayerDAIAds-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWPlayerDAIAds-frameworks.sh"; sourceTree = "<group>"; };
+		D0D34AEB19296334CE634AD092EAE3FE /* GoogleAds-IMA-iOS-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GoogleAds-IMA-iOS-SDK.debug.xcconfig"; sourceTree = "<group>"; };
+		D4D05170947EE87E4D122B9FBE543B6A /* Pods-JWPlayerDAIAdsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWPlayerDAIAdsTests.release.xcconfig"; sourceTree = "<group>"; };
+		D7763559F222126A74459DF583A89E8C /* Pods-JWPlayerDAIAds-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWPlayerDAIAds-Info.plist"; sourceTree = "<group>"; };
+		D855A895DE469E7402C6C8674F5449A1 /* Pods-JWPlayerDAIAds.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JWPlayerDAIAds.modulemap"; sourceTree = "<group>"; };
+		DC7781918B063998F4B1D3A3F6E1AFDE /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-umbrella.h"; sourceTree = "<group>"; };
+		DF2364E95656F526010B1F8F051DE2FD /* Pods-JWPlayerDAIAds-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JWPlayerDAIAds-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E905532D1DC069828ADFA591165FDA42 /* Pods-JWPlayerDAIAds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWPlayerDAIAds.release.xcconfig"; sourceTree = "<group>"; };
+		E9536BB27AB0B8BC7BEF0FF756429EC9 /* GoogleInteractiveMediaAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleInteractiveMediaAds.framework; sourceTree = "<group>"; };
+		E968C54B9E5E6A6960D6D541341D3765 /* Pods_JWPlayerDAIAds_JWPlayerDAIAdsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JWPlayerDAIAds_JWPlayerDAIAdsUITests.framework; path = "Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8560EB13A6AA442560D2B4CE5CDB003 /* Pods-JWPlayerDAIAdsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWPlayerDAIAdsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA8965CC924ADF91A218A9DFA34C557C /* GoogleAds-IMA-iOS-SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GoogleAds-IMA-iOS-SDK.release.xcconfig"; sourceTree = "<group>"; };
+		FB54ABA33D7C36923DC71AF0D47B912D /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07A6ADC94A0134E7DF599A0E563B285E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1F547130BF5D2F92AD48B9BC6A5139 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DA3E52AA066CDE5A5FC03EBFB00473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34673ABE649DBEAA57E47EC08FD251DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA1B9F9D97A7CD808DE0858EFE8D7A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FE1017428D1567886A6A7D16ABAFCA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23A36D980104987FE056BD09AD8BADD7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DF83BFA09FFE3ABF1C65BB29407A4B6 /* JWPlayer-SDK.debug.xcconfig */,
+				08C2418723269803CAB13EA47F41AA7D /* JWPlayer-SDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JWPlayer-SDK";
+			sourceTree = "<group>";
+		};
+		2C5486709031EDEE987C05C44AD5F03C /* Pods-JWPlayerDAIAds */ = {
+			isa = PBXGroup;
+			children = (
+				D855A895DE469E7402C6C8674F5449A1 /* Pods-JWPlayerDAIAds.modulemap */,
+				DF2364E95656F526010B1F8F051DE2FD /* Pods-JWPlayerDAIAds-acknowledgements.markdown */,
+				07F4D6ABD7D7122BCCF57AC97FFE2617 /* Pods-JWPlayerDAIAds-acknowledgements.plist */,
+				3D07D376ADA390A1BDCACBDD7088F81C /* Pods-JWPlayerDAIAds-dummy.m */,
+				C9803D53E7B3DF4BE50D19230F493531 /* Pods-JWPlayerDAIAds-frameworks.sh */,
+				D7763559F222126A74459DF583A89E8C /* Pods-JWPlayerDAIAds-Info.plist */,
+				6E1F46D7AB8E7134542CD28BD54C299B /* Pods-JWPlayerDAIAds-umbrella.h */,
+				0C425733D929BD8436D52079BF920A28 /* Pods-JWPlayerDAIAds.debug.xcconfig */,
+				E905532D1DC069828ADFA591165FDA42 /* Pods-JWPlayerDAIAds.release.xcconfig */,
+			);
+			name = "Pods-JWPlayerDAIAds";
+			path = "Target Support Files/Pods-JWPlayerDAIAds";
+			sourceTree = "<group>";
+		};
+		6051BBD883879C7AB5C931827CF196B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6137FDB88E164F560F6CA4817F2781E8 /* Pods_JWPlayerDAIAds.framework */,
+				E968C54B9E5E6A6960D6D541341D3765 /* Pods_JWPlayerDAIAds_JWPlayerDAIAdsUITests.framework */,
+				8DC9B9F044C1AF13A53FB74748ED9ED3 /* Pods_JWPlayerDAIAdsTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		946424ADB64BCDC44670055EFBF10EC3 /* JWPlayer-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				9BC99BE7593227D753C65016155C6F6A /* Frameworks */,
+				23A36D980104987FE056BD09AD8BADD7 /* Support Files */,
+			);
+			name = "JWPlayer-SDK";
+			path = "JWPlayer-SDK";
+			sourceTree = "<group>";
+		};
+		9BC99BE7593227D753C65016155C6F6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81B741D182D2047DCB0221F890F8D74F /* JWPlayer_iOS_SDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A71B22E57954DF7D7220ED4D70707AAA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0D34AEB19296334CE634AD092EAE3FE /* GoogleAds-IMA-iOS-SDK.debug.xcconfig */,
+				FA8965CC924ADF91A218A9DFA34C557C /* GoogleAds-IMA-iOS-SDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleAds-IMA-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		A7B75CB4B0DF796DC43E554F2D366B0F /* Pods-JWPlayerDAIAdsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0634C94F7AE70F0E83C7966E1370647D /* Pods-JWPlayerDAIAdsTests.modulemap */,
+				484704E674DAAAF58248741C4B52746B /* Pods-JWPlayerDAIAdsTests-acknowledgements.markdown */,
+				F8560EB13A6AA442560D2B4CE5CDB003 /* Pods-JWPlayerDAIAdsTests-acknowledgements.plist */,
+				1529D1FE30FE74D41D707FCC558E46FE /* Pods-JWPlayerDAIAdsTests-dummy.m */,
+				77738C2C94D297C7E801A70F6491DBEC /* Pods-JWPlayerDAIAdsTests-Info.plist */,
+				48A0CAC8E15726AF2F35914460C4422B /* Pods-JWPlayerDAIAdsTests-umbrella.h */,
+				5325F97234861CF1D088085C19A4D38E /* Pods-JWPlayerDAIAdsTests.debug.xcconfig */,
+				D4D05170947EE87E4D122B9FBE543B6A /* Pods-JWPlayerDAIAdsTests.release.xcconfig */,
+			);
+			name = "Pods-JWPlayerDAIAdsTests";
+			path = "Target Support Files/Pods-JWPlayerDAIAdsTests";
+			sourceTree = "<group>";
+		};
+		A9D43DA6790783E6189780C251B2597B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C5486709031EDEE987C05C44AD5F03C /* Pods-JWPlayerDAIAds */,
+				B4818613E9B9A3B687705D0ED279C1F4 /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests */,
+				A7B75CB4B0DF796DC43E554F2D366B0F /* Pods-JWPlayerDAIAdsTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B2456CD977041CC9A35897F861E03601 /* GoogleAds-IMA-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				BC07B473661261E849448D9F055022AE /* Frameworks */,
+				A71B22E57954DF7D7220ED4D70707AAA /* Support Files */,
+			);
+			name = "GoogleAds-IMA-iOS-SDK";
+			path = "GoogleAds-IMA-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		B4818613E9B9A3B687705D0ED279C1F4 /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4205F1AB8358E293BA22C99E90778CB3 /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests.modulemap */,
+				8BC9E219F6BF2B0F9B073F4D75E8E4C1 /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-acknowledgements.markdown */,
+				0D5AC33E3C7E50F9E614987155DF93E4 /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-acknowledgements.plist */,
+				C63E778D4E01ED3CEFC6B1D0A8C60A39 /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-dummy.m */,
+				FB54ABA33D7C36923DC71AF0D47B912D /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-frameworks.sh */,
+				71E28BDBA3398AA459E47DA8B7D46781 /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-Info.plist */,
+				DC7781918B063998F4B1D3A3F6E1AFDE /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-umbrella.h */,
+				C3025909B773D1FC58F2DE17B53EC1CC /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests.debug.xcconfig */,
+				2498D6301EDBD7D69064A3EDD8AB8A9F /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests.release.xcconfig */,
+			);
+			name = "Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests";
+			path = "Target Support Files/Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests";
+			sourceTree = "<group>";
+		};
+		B8D77647FDDF131AE0BAFB2D517DF4B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2456CD977041CC9A35897F861E03601 /* GoogleAds-IMA-iOS-SDK */,
+				946424ADB64BCDC44670055EFBF10EC3 /* JWPlayer-SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC07B473661261E849448D9F055022AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9536BB27AB0B8BC7BEF0FF756429EC9 /* GoogleInteractiveMediaAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B8D77647FDDF131AE0BAFB2D517DF4B1 /* Pods */,
+				6051BBD883879C7AB5C931827CF196B1 /* Products */,
+				A9D43DA6790783E6189780C251B2597B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		343AE4DB0844D0A38E88586232E9B744 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B497B1ED0349FB6A77F3FBDA8F0FDF /* Pods-JWPlayerDAIAdsTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C03C494931821FE90078D9951D7D5A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA966D13B842A2EDF82B40B232D5B934 /* Pods-JWPlayerDAIAds-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52975B34E5BB6EDD9F725E2147D7A243 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D088D14F954F42CB2AFC460A50B1223 /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		67047133F6D322B2BE50581B630F923D /* Pods-JWPlayerDAIAdsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34260E8ABED32A3DD8F248F906F691BE /* Build configuration list for PBXNativeTarget "Pods-JWPlayerDAIAdsTests" */;
+			buildPhases = (
+				343AE4DB0844D0A38E88586232E9B744 /* Headers */,
+				6466FE45084C31E87E2C9170DCDE3C12 /* Sources */,
+				45DA3E52AA066CDE5A5FC03EBFB00473 /* Frameworks */,
+				7A11E2AED02CB174A58AC7DD9BE6237E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75AEDCFB6C78E3BD915051228A4A56B1 /* PBXTargetDependency */,
+			);
+			name = "Pods-JWPlayerDAIAdsTests";
+			productName = "Pods-JWPlayerDAIAdsTests";
+			productReference = 8DC9B9F044C1AF13A53FB74748ED9ED3 /* Pods_JWPlayerDAIAdsTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF99FB82C6C0A018839C15E759FCD6AA /* Pods-JWPlayerDAIAds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71EE4E0E46B6FD75E44959CB47F4C0DD /* Build configuration list for PBXNativeTarget "Pods-JWPlayerDAIAds" */;
+			buildPhases = (
+				4C03C494931821FE90078D9951D7D5A1 /* Headers */,
+				50EB99AAA5035E78EFB55974BB0189D3 /* Sources */,
+				07A6ADC94A0134E7DF599A0E563B285E /* Frameworks */,
+				A0E2C829234C0E684677036AF933EDF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AC7B42E338870C7337BF1831C2E7337 /* PBXTargetDependency */,
+				80F17967753E660D78ED0A438A936314 /* PBXTargetDependency */,
+			);
+			name = "Pods-JWPlayerDAIAds";
+			productName = "Pods-JWPlayerDAIAds";
+			productReference = 6137FDB88E164F560F6CA4817F2781E8 /* Pods_JWPlayerDAIAds.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6EF80C3DB6952E9B71AD75681F7AF33 /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2273C6D6BF9634C186427BD4B7E5491B /* Build configuration list for PBXNativeTarget "Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests" */;
+			buildPhases = (
+				52975B34E5BB6EDD9F725E2147D7A243 /* Headers */,
+				3C1F74BD49611523DF7CBE12592B5FBC /* Sources */,
+				ABA1B9F9D97A7CD808DE0858EFE8D7A7 /* Frameworks */,
+				DB1C458CBE7E965C58F56B306E589B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20AFD39CD047AB2B681C88E0DEAEC464 /* PBXTargetDependency */,
+				6DAE47C42BED015F305106224AA1BFD4 /* PBXTargetDependency */,
+			);
+			name = "Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests";
+			productName = "Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests";
+			productReference = E968C54B9E5E6A6960D6D541341D3765 /* Pods_JWPlayerDAIAds_JWPlayerDAIAdsUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6051BBD883879C7AB5C931827CF196B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7362DAB47E2EFA5452F30DD7E9830B56 /* GoogleAds-IMA-iOS-SDK */,
+				24A80F80D862D66FDB7A271BB46C6FB5 /* JWPlayer-SDK */,
+				CF99FB82C6C0A018839C15E759FCD6AA /* Pods-JWPlayerDAIAds */,
+				F6EF80C3DB6952E9B71AD75681F7AF33 /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests */,
+				67047133F6D322B2BE50581B630F923D /* Pods-JWPlayerDAIAdsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A11E2AED02CB174A58AC7DD9BE6237E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E2C829234C0E684677036AF933EDF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1C458CBE7E965C58F56B306E589B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C1F74BD49611523DF7CBE12592B5FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C794C25CACF4EF5BF7D00BAD2CC722 /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EB99AAA5035E78EFB55974BB0189D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2475283B7C21143648DFCCFCB3FF6998 /* Pods-JWPlayerDAIAds-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6466FE45084C31E87E2C9170DCDE3C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95DAF8EF535F8F08244C45269692D23 /* Pods-JWPlayerDAIAdsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AC7B42E338870C7337BF1831C2E7337 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GoogleAds-IMA-iOS-SDK";
+			target = 7362DAB47E2EFA5452F30DD7E9830B56 /* GoogleAds-IMA-iOS-SDK */;
+			targetProxy = C7CBAAE493171A2EC8674A0E63F48341 /* PBXContainerItemProxy */;
+		};
+		20AFD39CD047AB2B681C88E0DEAEC464 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GoogleAds-IMA-iOS-SDK";
+			target = 7362DAB47E2EFA5452F30DD7E9830B56 /* GoogleAds-IMA-iOS-SDK */;
+			targetProxy = 5CB2446A88FE6027441AEDE5859DFCDD /* PBXContainerItemProxy */;
+		};
+		6DAE47C42BED015F305106224AA1BFD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JWPlayer-SDK";
+			target = 24A80F80D862D66FDB7A271BB46C6FB5 /* JWPlayer-SDK */;
+			targetProxy = 76407074AA676B11FA6D805523D96BAA /* PBXContainerItemProxy */;
+		};
+		75AEDCFB6C78E3BD915051228A4A56B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JWPlayerDAIAds";
+			target = CF99FB82C6C0A018839C15E759FCD6AA /* Pods-JWPlayerDAIAds */;
+			targetProxy = ABA38FCDAD2FFE7EB39C78D3B2203BED /* PBXContainerItemProxy */;
+		};
+		80F17967753E660D78ED0A438A936314 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JWPlayer-SDK";
+			target = 24A80F80D862D66FDB7A271BB46C6FB5 /* JWPlayer-SDK */;
+			targetProxy = 7F56E2AE7E850BA004661F4143560EA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1603EA4ECDFB759B965E0A16004CFC55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA8965CC924ADF91A218A9DFA34C557C /* GoogleAds-IMA-iOS-SDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B7D5B85F68BA3DB38B2D58288586964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08C2418723269803CAB13EA47F41AA7D /* JWPlayer-SDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5426B596BF8399471B63A6CB5FE947FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4D05170947EE87E4D122B9FBE543B6A /* Pods-JWPlayerDAIAdsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JWPlayerDAIAdsTests/Pods-JWPlayerDAIAdsTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JWPlayerDAIAdsTests/Pods-JWPlayerDAIAdsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		820EB39337C179DE1378CCB6A27EC9BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3025909B773D1FC58F2DE17B53EC1CC /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests/Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests/Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		90A0E7BDD2F797C6B48588D45BB0ABD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E905532D1DC069828ADFA591165FDA42 /* Pods-JWPlayerDAIAds.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JWPlayerDAIAds/Pods-JWPlayerDAIAds-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JWPlayerDAIAds/Pods-JWPlayerDAIAds.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6355EA99B2C31935BC5475368CBAC81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2498D6301EDBD7D69064A3EDD8AB8A9F /* Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests/Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests/Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF1F8D2941B0228930706FA0F2C9BB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C23002600EC37065AF3DC6896526191D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C425733D929BD8436D52079BF920A28 /* Pods-JWPlayerDAIAds.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JWPlayerDAIAds/Pods-JWPlayerDAIAds-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JWPlayerDAIAds/Pods-JWPlayerDAIAds.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D8FDB500DAD052B7A9830A86E394A429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5325F97234861CF1D088085C19A4D38E /* Pods-JWPlayerDAIAdsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JWPlayerDAIAdsTests/Pods-JWPlayerDAIAdsTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JWPlayerDAIAdsTests/Pods-JWPlayerDAIAdsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9DBE7C7EB9BC11FFA9762C86F5F4AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DF83BFA09FFE3ABF1C65BB29407A4B6 /* JWPlayer-SDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F28D65C174D3E63DD8AF02EB8BB2FBDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0D34AEB19296334CE634AD092EAE3FE /* GoogleAds-IMA-iOS-SDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		037331DAE1EDE0E984EAAC1382F2056D /* Build configuration list for PBXAggregateTarget "JWPlayer-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DBE7C7EB9BC11FFA9762C86F5F4AED /* Debug */,
+				1B7D5B85F68BA3DB38B2D58288586964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2273C6D6BF9634C186427BD4B7E5491B /* Build configuration list for PBXNativeTarget "Pods-JWPlayerDAIAds-JWPlayerDAIAdsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820EB39337C179DE1378CCB6A27EC9BB /* Debug */,
+				A6355EA99B2C31935BC5475368CBAC81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34260E8ABED32A3DD8F248F906F691BE /* Build configuration list for PBXNativeTarget "Pods-JWPlayerDAIAdsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8FDB500DAD052B7A9830A86E394A429 /* Debug */,
+				5426B596BF8399471B63A6CB5FE947FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */,
+				AF1F8D2941B0228930706FA0F2C9BB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71EE4E0E46B6FD75E44959CB47F4C0DD /* Build configuration list for PBXNativeTarget "Pods-JWPlayerDAIAds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23002600EC37065AF3DC6896526191D /* Debug */,
+				90A0E7BDD2F797C6B48588D45BB0ABD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0947F7804C6387890E85B00E14F35E6 /* Build configuration list for PBXAggregateTarget "GoogleAds-IMA-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28D65C174D3E63DD8AF02EB8BB2FBDC /* Debug */,
+				1603EA4ECDFB759B965E0A16004CFC55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

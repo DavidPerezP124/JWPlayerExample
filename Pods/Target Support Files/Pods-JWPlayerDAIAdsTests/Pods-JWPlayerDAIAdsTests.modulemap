@@ -1,0 +1,6 @@
+framework module Pods_JWPlayerDAIAdsTests {
+  umbrella header "Pods-JWPlayerDAIAdsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
