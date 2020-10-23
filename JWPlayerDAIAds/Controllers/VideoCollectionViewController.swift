@@ -6,10 +6,9 @@
 //
 
 import UIKit
-
+let vastTagURL = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpreonly&cmsid=496&vid=short_onecue&correlator="
 class VideoCollectionViewController: UICollectionViewController {
 
-    let vastTagURL = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpreonly&cmsid=496&vid=short_onecue&correlator="
     
     var feed = [JWPlayerController]()
     
@@ -38,7 +37,7 @@ class VideoCollectionViewController: UICollectionViewController {
         feedInfo.forEach{ itemInfo in
             
             guard let config = createConfig(info:itemInfo) else {
-                continue
+                return
             }
             
             if let player = JWPlayerController(config: config) {
